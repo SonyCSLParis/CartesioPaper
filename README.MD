@@ -1,5 +1,8 @@
 # README - Setup Guide for Virtual Environment
 
+## Purpose of the Repository
+This repository is dedicated to replicating the results displayed in our study currently under revision for publication in a peer-reviewed journal. It includes all necessary Python scripts, data processing tools, and documentation needed to reproduce the findings as presented in our submission. Our goal is to facilitate transparency, validation, and further research by providing a comprehensive and accessible resource for replicating our study's results.
+
 ## Introduction
 This guide provides step-by-step instructions to set up the virtual environment required for running the Python analysis code. The code utilizes several libraries including `matplotlib`, `numpy`, `pandas`, `mpl_toolkits.axes_grid1`, `seaborn`, and `scipy`.
 
@@ -47,13 +50,6 @@ pip install -r requirements.txt
 After running the code, you can deactivate the virtual environment.
 ```bash
 deactivate
-```
-
-## Running the Code
-With the virtual environment activated and dependencies installed, you can now run the Python scripts in your project.
-
-```bash
-python [script_name].py
 ```
 
 ## Troubleshooting
